@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007bff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <LinearLayout
+        android:id="@+id/lyt_1"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="Register "
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/lyt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengguna" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView3"
+        android:padding="8dp"
+
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_text"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#fff" />
+    <TextView
+    android:id="@+id/textView45"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="50dp"
+    android:textColor="#fff"
+    android:layout_below="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Email" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle32"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView45"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName312"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/textView454"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle322"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView454"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3124"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle322"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ttl" />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView4"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/passwordnya"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIK" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle2"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView42"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName32"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView422"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle22"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView422"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName322"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/textView4222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO HP" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle2222"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView4222"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3222"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView42222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/password_toggle2222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpanan Awal" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:id="@+id/password_toggle222222"
+        app:passwordToggleTint="#FFF"
+        android:layout_below="@+id/textView42222"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName32222"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/textView3"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_text"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#fff" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/password_toggle222222"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Register"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
+</ScrollView>
