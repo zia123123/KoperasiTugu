@@ -80,7 +80,7 @@
         android:background="@drawable/bg_text"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textColor="#fff" />
+        android:textColor="#000" />
     <TextView
         android:id="@+id/textView4"
         android:layout_marginTop="20dp"
@@ -114,7 +114,7 @@
             android:background="@drawable/bg_text"
             android:ems="10"
             android:inputType="textPassword"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
 

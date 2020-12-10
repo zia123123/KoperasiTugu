@@ -57,11 +57,13 @@ public class SectionsPagerDetailAktif extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position){
             case 0:
-                return "TUGAS";
+                return "";
             case 1:
-                return "UNIT";
+                return "SIMPANAN";
             case 2:
-                return "COMPONENT";
+                return "PINJAMAN";
+            case 3:
+                return "PEMBAYARAN";
         }
         return null;
     }
@@ -69,6 +71,6 @@ public class SectionsPagerDetailAktif extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 3;
+        return 4;
     }
 }

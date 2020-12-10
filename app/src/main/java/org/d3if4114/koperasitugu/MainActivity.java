@@ -36,10 +36,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mAuth = FirebaseAuth.getInstance();
-        usernametext = findViewById(R.id.username);
-        passwordtext = findViewById(R.id.passwordnya);
-        username = usernametext.getText().toString();
-        password = passwordtext.getText().toString();
+
 
         login = findViewById(R.id.button);
         register = findViewById(R.id.button2);
@@ -48,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                usernametext = findViewById(R.id.username);
+                passwordtext = findViewById(R.id.passwordnya);
+                username = usernametext.getText().toString();
+                password = passwordtext.getText().toString();
                 login(username,password);
             }
         });
